@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Simone's Personal Site</title>
+    </head>
+
+    <body>
+        <table cellspacing ="10"><!--aggiunge uno spazio su tutti i lati delle celle in px-->
+            <tr>
+                <td><img src="../HTML - Personal Site/Media/simone-modified.png" alt="Simone foto profilo" width="200" height="200"></img></td>
+                <td>
+                    <h1>Simone Boffelli</h1>
+                    <p><em>SSSE SIG <strong>Informatico di gestione</strong></em></p>
+                    <p><em>Sono nato a Lugano il 24 giugno 1985, dopo le scuole dell'obbligo
+                            ho conseguito il diploma come meccanico AFC.
+                            <br><strong>Nel 2022 ho intrapreso una riqualifica come informatico di gestione presso la
+                                <a href="https://ssse.ti.ch/sig">SIG di Bellinzona</strong></a>
+                            <br>Amo il ☕, programmare e giocare ai 🎮!</em>
+                </td>
+            </tr>
+        </table>
+        <hr> <!--horizontal rule-->
+        </p>
+        <h3>Formazione</h3>
+        <p>
+        <ul>
+            <li>Scuole dell'obbligo</li>
+            <li>Apprendistato come meccanico AFC</li>
+            <li>Formazione continua</li>
+            <li><strong>Informatico di gestione</strong></li>
+        </ul>
+        <hr> <!--horizontal rule-->
+        </p>
+        <h3>Esperienze Professionali</h3>
+        <p>
+        <ol>
+            <li>Apprendistato</li>
+            <li>Operaio meccanico</li>
+            <li>Autista</li>
+            <li>Magazziniere</li>
+            <li>Studente</li>
+        </ol>
+        <hr> <!--horizontal rule-->
+        </p>
+        <h3>Work Experience</h3>
+        <!--le tabelle funzionerebbero automaticamente anche senza header, body e footer
+        ma con l'aggiunta degli stili CSS la divisione permettere di colorare e modificare
+        separatamente i vari campi delle tabelle (le modifiche di stile sulle tabelle tramite
+        HTML sono state Deprecate, quindi é raccomandato aggiungerle tramite CSS, in questo
+        caso lo aggiungo solo per vedere che é possibile!)-->
+        <table border="1" cellspacing ="10"> <!--tabella (per formattare e allineare i vari campi di una lista)-->
+            <thead><!--header tabella-->
+                <tr>
+                    <th>Date</th><!--cella di header tabella-->
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tbody><!--corpo tabella-->
+                <tr><!--riga tabella-->
+                    <td>20XX - 20XX</td><!--cella tabella (table data)-->
+                    <td>meccanico presso Garage Boffelli</td>
+                </tr>
+                <tr><!--ogni tag tr crea una nuova linea-->
+                    <td>20XX - 20XX</td><!--ogni tag td crea una nuova colonna-->
+                    <td>Autista presso ESA</td>
+                </tr>
+                <tr>
+                    <td>20XX - 20XX</td>
+                    <td>Magazziniere presso ESA</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Informatico presso SIG</td>
+                </tr>
+            </tbody>
+            <tfoot><!--footer tabella-->
+
+            </tfoot>
+        </table>
+        <hr>
+        <h3>Skills</h3>
+        <table cellspacing ="10"><!-- tabella imbricata in un altra tabella, serve a creare 2 colonne con al loro interno 
+        una table ognuna (difficilmente le si realizza tramite html perché molto confusionale) -->
+            <tr>
+                <td>
+                    <table><!-- tabella imbricata -->
+                        <tr>
+                            <td>Java</td><!--ogni tag td crea una nuova colonna-->
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Phyton</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table><!-- tabella imbricata -->
+                        </tr>
+                            <td>CSS</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr> 
+                        </tr>
+                            <td>Java script</td>
+                            <td>⭐⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <p>
+            <a href="../HTML - Personal Site/Hobbis.html"><h3>My hobbies</a>
+            <a href="../HTML - Personal Site/Contatti.html">Contact Me</h3></a>
+        </p>
+        <hr>
+        <p>
+            <strong>QUESTO SITO FA UN PO'</strong> 💩💩💩💩
+        </p>
+    </body>
+
+</html>
